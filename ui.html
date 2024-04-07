@@ -35,40 +35,40 @@
             <span id="loop" class="material-icons md-18 controls" style="color: white;">loop</span>
         </nav>
         <div class="info-container">
-            <span id="info-title">Info</span>
-            <span id="info-desc">Display info about certain buttons and icons.</span>
+            <span id="info-title">Informações</span>
+            <span id="info-desc">Exibir informações sobre determinados botões e ícones.</span>
         </div>
         <main id="anims-holder" class="anims-block">
             <!--Data inserted by Javascript-->
         </main>
     </div>
     <div class="settings-container">
-        <span class="settings-title">Settings</span>
+        <span class="settings-title">Configurações</span>
         <hr style="margin-top: 2.5%; margin-bottom: 2.5%;" width="80%">
         <div>
-            <span>Animation Duration</span>
+            <span>Duração da Animação</span>
             <input id="set-duration" type="number" placeholder="1500" maxlength="5" min="1000" max="15000" oninput="javascript: if (this.value >= this.max && this.value.length >= this.maxLength) this.value = this.max;">
         </div>
         <div>
-            <span>Cancel Animation Key</span>
+            <span>Cancelamento da Animação Key</span>
             <input id="set-cancel" type="number" placeholder="38" maxlength="3" min="0" max="360" oninput="javascript: if (this.value >= this.max && this.value.length >= this.maxLength) this.value = this.max;">
         </div>
         <div>
-            <span>Favorite Animation</span>
+            <span>Animação Favorita</span>
             <input id="set-emote" type="text" placeholder="emote1">
         </div>
         <div>
-            <span>Favorite Animation Key</span>
+            <span>Chave da Animação Favorita</span>
             <input id="set-key" type="number" placeholder="38" maxlength="3" min="0" max="360" oninput="javascript: if (this.value >= this.max && this.value.length >= this.maxLength) this.value = this.max;">
         </div>
         <hr style="margin-top: 2.5%; margin-bottom: 2.5%;" width="80%">
-        <button id="reset-duration">Reset Animation Duration</button>
+        <button id="reset-duration">Reset Duração da Animação</button>
         <button id="reset-cancel">Reset Cancel Animation Key</button>
-        <button id="reset-fav">Reset Favorite Animation</button>
-        <button id="reset-key">Reset Favorite Animation Key</button>
+        <button id="reset-fav">Reset Chave da Animação Favorita</button>
+        <button id="reset-key">Reset Animações Favoritas</button>
         <hr style="margin-top: 2.5%; margin-bottom: 2.5%;" width="80%">
-        <button id="reset-favs">Reset Favorite Anims</button>
-        <button id="save-settings" style="margin-bottom: 5%">Save Settings</button>
+        <button id="reset-favs">Reset Animações Favoritas</button>
+        <button id="save-settings" style="margin-bottom: 5%">Salvar Configurações</button>
     </div>
     <script type="module" src='./js/script.js'></script>
     <script type="module" src='./js/listeners.js'></script>
